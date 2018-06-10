@@ -1,0 +1,27 @@
+% Chapter 1
+
+\chapter{Introduction} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%----------------------------------------------------------------------------------------
+
+Process Models are everywhere - not only in the business world, but they can also be found in social networks, politics and official bodies or Technology. There are two main approaches to a process model. Either they are written in advance to be followed i.e. by employees in a company that introduces new processes to comply with regulatory standard, or they are derived from existing behavior. The latter one describes the field of Process Mining, which relies on digital traces of actions. \\
+
+The general idea to inspect the data and discover that certain actions follow each other is straight forward, however it becomes more difficult once there are several steps which can follow one action. Are these actions executed in parallel or only one of them exclusively? Do they have to be completed in a certain order?\\
+Even more complex is the question if rare events and actions which can be found in the data are part of the process or just random noise in the sense that they don't belong in the model and can be discarded.\\
+
+In their paper \grqq{}Data-driven process discovery: revealing conditional infrequent behavior from event logs\grqq{}, F. Mannhardt et. al. from the Eindhoven University of Technology describe their approach to handle rare events in the data. They introduce the \glqq{}Data-aware Heuristic Miner\grqq{} (DHM) which applies classification techniques in order to derive dependencies between activities and thus distinguish between noise and infrequent behavior.\\
+
+This seminar paper gives an insight to the approach of F. Mannhardt et. al and critically evaluates it.\\
+In the first section the basic concepts of Business Process Mining will be explained - based on concepts applied by the authors. After explaining the theoretical concept of the DHM the results of the empirical evaluation from the paper shall be reproduced and presented in section two.\\ 
+For evaluation the free interactive tool \glqq{}ProM\grqq{} was used and for the replication the package \glqq DataAwareCNetMiner\grqq{} will be applied. As this package underwent further development after the publication of the described paper, there are is a discrepancy in the results. In Section three the evolved Inductive Data-aware Heuristic Miner will be evaluated on basis of a second paper and compared to the basic approach of the DHM.

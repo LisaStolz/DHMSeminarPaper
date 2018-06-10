@@ -1,0 +1,14 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Steps in Process Mining\cite {Buijs2017}\relax }}{3}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Three traces of an example process of the emergency ward data \cite {Mannhardt17}\relax }}{4}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces A Petri net derived from Event logs\cite {Buijs2017}\relax }}{4}{figure.caption.17}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Splits and Joins in a C-net of the emergency ward example process\cite {Mannhardt17}\cite {VanDerAlst11}\relax }}{5}{figure.caption.27}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The Footprint Matrix of the Alpha Miner\cite {Buijs2017}\relax }}{6}{figure.caption.32}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A derived Petri net of the Footprint Matrix\cite {Buijs2017}\relax }}{6}{figure.caption.33}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Dependency Matrix des Heuristic Miners\cite {Buijs2017}\relax }}{7}{figure.caption.35}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Inductive Miner - Repeatedly Split Event Log\cite {Buijs2017}\relax }}{8}{figure.caption.37}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Discovered models by the IM and HM in BPMN \cite {Mannhardt17}\relax }}{8}{figure.caption.43}
+\addvspace {10\p@ }

@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}
+\contentsline {chapter}{Abstract}{v}{section*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.11}
+\contentsline {chapter}{\numberline {2}Business Process Mining}{3}{chapter.12}
+\contentsline {section}{\numberline {2.1}Basic Concepts of Process Mining}{3}{section.13}
+\contentsline {subsection}{\numberline {2.1.1}Event logs, Petri nets and model criteria}{3}{subsection.15}
+\contentsline {subsection}{\numberline {2.1.2}Causal Nets}{5}{subsection.26}
+\contentsline {section}{\numberline {2.2}Mining Methods}{6}{section.30}
+\contentsline {subsection}{\numberline {2.2.1}Alpha Miner}{6}{subsection.31}
+\contentsline {subsection}{\numberline {2.2.2}Heuristics Miner (HM)}{7}{subsection.34}
+\contentsline {subsection}{\numberline {2.2.3}Inductive Miner (IM)}{7}{subsection.36}
+\contentsline {section}{\numberline {2.3}The Data-aware Heuristic Miner (DHM)}{8}{section.41}
+\contentsline {subsection}{\numberline {2.3.1}Data-aware Dependency Measures}{8}{subsection.42}
+\contentsline {subsection}{\numberline {2.3.2}Training a classifier for the dependency condition}{9}{subsection.50}
+\contentsline {subsection}{\numberline {2.3.3}Tuning noise filtering capabilities and discovering C-nets}{10}{subsection.57}
+\contentsline {chapter}{\numberline {3}Result Reproduction}{13}{chapter.64}
+\contentsline {section}{\numberline {3.1}Synthetic Data Logs}{13}{section.65}
+\contentsline {subsection}{\numberline {3.1.1}Evaluation design and methods}{13}{subsection.66}
+\contentsline {section}{\numberline {3.2}Hospital Billing}{13}{section.68}
+\contentsline {section}{\numberline {3.3}Road Fines}{13}{section.69}
+\contentsline {chapter}{Bibliography}{15}{appendix*.70}

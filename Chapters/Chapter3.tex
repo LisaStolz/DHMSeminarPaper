@@ -1,0 +1,82 @@
+% Chapter3
+
+\chapter{Result Reproduction} % Main chapter title
+
+\label{Chapter3} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+%\newcommand{\keyword}[1]{\textbf{#1}}
+%\newcommand{\tabhead}[1]{\textbf{#1}}
+%\newcommand{\code}[1]{\texttt{#1}}
+%\newcommand{\file}[1]{\texttt{\bfseries#1}}
+%\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+
+%----------------------------------------------------------------------------------------
+
+
+\section{Synthetic Data Logs}
+
+\subsection{Evaluation design and methods}
+The authors generated an event log with 100,000 traces and approximately 900,000 events.\\
+
+\begin{table}[H]
+\begin{tabularx}{\textwidth}
+{>{\setlength\hsize{0.8\hsize}\setlength\linewidth{\hsize}}
+X>{\setlength\hsize{1.2\hsize}\setlength\linewidth{\hsize}}
+X>{\setlength\hsize{1\hsize}\setlength\linewidth{\hsize}}
+X}
+\textbf{Attributes} & \textbf{Methods} & \textbf{Thresholds} \\
+\hline
+\noindent
+\begin{itemize}[leftmargin=*] 
+\item Priority (P) \newline white 1.4\%
+\item Nurse (N) \newline Alice 19.1\%
+\item Type (T) \newline out 4.3\%
+\end{itemize} &
+\begin{itemize}[leftmargin=*] 
+\item DHM
+\item HM - frequency filter (HMF)
+\item HM - no frequency filter (HMA)
+\end{itemize} &
+\begin{itemize}[leftmargin=*] 
+\item $\theta_{obs}$ = 0.06 \newline (0.0 for HMA)
+\item $\theta_{dep}$ = 0.9
+\item $\theta_{bin}$ = 0.1
+\item $\theta_{con}$ = 0.5
+\end{itemize}
+\end{tabularx}
+\end{table}
+
+\noindent
+Furthermore the \textbf{accepted-task-connected heuristic} was used, the \textbf{C4.5} applied as the classifier and its performance was estimated using \textbf{10 times 10-fold cross validation}.
+
+%----------------------------------------------------------------------------------------
+
+\section{Hospital Billing}
+The Hospi-
+tal Billing (HB) event log was obtained from the ERP system of a hospital. It contains
+100,000 cases with 550,000 events and 38 data attributes related to the billing of medical
+services.
+
+CaseType
+CloseCode
+isClosed
+Speciality
+
+%----------------------------------------------------------------------------------------
+
+\section{Road Fines}
+The Road Fines (RF) event log was recorded by an information system that handles road-traffic fines by an Italian local police force. This event log contains about 150,000 cases, 500,000 events, and 9 data attributes. 
+
+We applied the proposed method (DHM), the HM with the same frequency fil-
+ter settings (HMF) and the Inductive Miner (IM) to both event logs. 
+Without a reference
+model and knowledge about expected noise levels, we could not compare the discov-
+ered models to a gold standard. Therefore, we compare the novel insights obtained by
+using our method with those from the other methods.
+
+
+ 

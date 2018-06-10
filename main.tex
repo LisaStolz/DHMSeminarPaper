@@ -1,0 +1,302 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 2.4.1 (20/05/17)
+%
+% University of Applied Sciences
+% Department of Computer Science 
+% ---------------------------------------
+% B.Sc. & M.Sc. Thesis Template
+% Template modified by Stephan Gimbel
+% Contact: stephan.gimbel@h-da.de
+% Web: https://www.fbi.h-da.de/organisation/personen/gimbel-stephan.html
+% ---------------------------------------
+%
+% Original Template Information:
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Version 2.x major modifications by:
+% Vel (vel@latextemplates.com)
+%
+% This template is based on a template by:
+% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
+% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
+%
+% Template license:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+11pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+%english, % ngerman for German
+english,
+singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to the table of contents
+%parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+%headsepline, % Uncomment to get a line under the header
+%chapterinoneline, % Uncomment to place the chapter title next to the number on one line
+%consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout	
+]{MastersDoctoralThesis} % The class file specifying the document structure
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{palatino} % Use the Palatino font by default
+\usepackage{siunitx} % Added package to display units
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{xspace}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{enumitem}
+%\usepackage{abntcite}
+\usepackage[backend=biber,style=alphabetic,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+% possible styles: numeric, alphabetic, authoryear, authortitle, verbose, reading, draft
+\addbibresource{library.bib} % The filename of the bibliography
+\usepackage{filecontents}
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2.5cm, % Inner margin
+	outer=3.8cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+%	THESIS INFORMATION
+%----------------------------------------------------------------------------------------
+
+\thesistitle{Data-driven process discovery} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\supervisor{Prof. Dr. Markus D\"ohring} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+%\supervisor{Prof. Dr. Brian S. \textsc{Smith}}
+\examiner{Prof. Dr. Markus D\"ohring} % Your examiner's name, print it elsewhere with \examname
+%\examiner{Prof. Dr. Sangeeta \textsc{Singh}}
+\degree{Master of Science (M.Sc.)} % Your degree name, print it elsewhere with \degreename
+%\degree{Master of Science (M.Sc.)}
+%\author{John \textsc{Smith}} % Your name, print it elsewhere with \authorname
+\author{Lisa Stolz}
+\addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
+
+\subject{Data science} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+%\university{\href{http://www.university.com}{Hochschule Darmstadt}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+%\university{\href{http://www.h-da.de}{Hochschule Darmstadt}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\university{{Hochschule Darmstadt}} % Your university's name and URL, this is used in the title page and abstract, print 
+%\department{\href{http://fbi.h-da.de}{Fachbereich Informatik}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\department{{Fachbereich Mathematik}}
+\group{\href{http://researchgroup.university.com}{Research Group Name}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\faculty{\href{http://faculty.university.com}{Faculty Name}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+
+\AtBeginDocument{
+%\hypersetup{pdftitle=\thesistitle} % Set the PDF's title to your title
+%\hypersetup{pdfauthor=\author} % Set the PDF's author to your name
+%\hypersetup{pdfkeywords=\keywords} % Set the PDF's keywords to your keywords
+}
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\vspace*{.06\textheight}
+\includegraphics[width=8cm]{Logo/logo_h_da_fbmn300.png}
+\vspace*{.02\textheight}
+
+\Large{\textbf{\textsf{Hochschule Darmstadt}}} \\
+\Large{\textsf{- Fachbereich Mathematik -}}
+\vspace*{.06\textheight}
+ 
+\huge{\textbf{\textsf{\ttitle}}}\\
+\vspace{0.5em}
+\Large{\textbf{\textsf{Reproduktion und kritische Betrachtung der Ergebnisse von F. Mannhardt et al.(TU/e)}}} \\
+ 
+\vspace{3em}
+
+\large{\textsf{Abschlussarbeit im Hauptseminar - Hot Topics in Data Science}} \\ \vspace{0.5em}
+%\Large{\textbf{\textsf{\degreename}}} \\ \vspace{0.5em}
+\large{\textsf{vorgelegt von}}
+ 
+\vspace*{.04\textheight}
+ 
+\textsf{\authorname}
+ 
+\vspace{4.0em}
+
+\begin{spacing}{1.5}
+\textsf{\makebox[3.5cm][l]{Referent:}}            \textsf{\makebox[7cm][r]{\supname}} \\
+\textsf{\makebox[3.5cm][l]{Korreferentin:}}           \textsf{\makebox[7cm][r]{\examname}} \\
+\textsf{\small{\makebox[3.5cm][l]{Ausgabedatum:}}}  \textsf{\small{\makebox[7cm][r]{\today}}} \\
+\textsf{\small{\makebox[3.5cm][l]{Abgabedatum:}}}   \textsf{\small{\makebox[7cm][r]{\today}}}
+\end{spacing}
+
+\end{center}
+\end{titlepage}
+\newpage
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{declaration}
+\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+\noindent Ich, \authorname, versichere hiermit, dass ich die vorliegende Arbeit selbstständig verfasst und keine anderen als die im Literaturverzeichnis angegebenen Quellen benutzt habe. \\ 
+
+\noindent Alle Stellen, die wörtlich oder sinngemäß aus veröffentlichten oder noch nicht veröffentlichten Quellen entnommen sind, sind als solche kenntlich gemacht.\\
+
+\noindent Die Zeichnungen oder Abbildungen in dieser Arbeit sind von mir selbst erstellt worden oder mit einem entsprechenden Quellennachweis versehen. Diese Arbeit ist in gleicher oder ähnlicher Form noch bei keiner anderen Prüfungsbehörde eingereicht worden.\\
+
+\noindent Darmstadt, den \today
+
+\vspace{5em}
+\noindent\rule[1em]{25em}{0.5pt}\\ % This prints a line for the signature
+(Vollständige, handschriftliche Unterschrift)
+
+\end{declaration}
+
+\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+\vspace{3em}
+Ziel dieser Seminararbeit ist die kritische Auseinandersetzung mit dem Paper "Data-driven process discovery: revealing conditional
+infrequent behavior from event logs\grqq{} \\ von F. Mannhardt et. al. der Technischen Univerität Eindhoven.\\
+Die Autoren stellen in dieser Arbeit den \glqq Data-aware Heuristic Miner\grqq{} (DHM) vor, welcher bisherige heuristische Process Mining Ansätze um ein Maß der bedingten Abhängigkeit erweitert.\\
+Der DHM basiert auf der Idee, dass seltenes - jedoch durch Daten gestütztes - Prozessverhalten nicht als Hintergrundrauschen verworfen werden sollte.
+Die Autoren erklären in ihrer Arbeit zunächst die theoretischen Hintergründe des DHM und zeigen anschließend die Ergebnisse der Evaluierung in ProM.\\
+\vspace{0.5em}
+
+In dieser Arbeit wird zunächst ein kurzer Überblick über den DHM und die Erweiterung bisheriger heuristischer Ansätze des Process Mining gegeben.\footcite{Mannhardt17}
+Der Schwerpunkt liegt anschließend auf der praktischen Anwendung des Pakets \glqq DataAwareCNetMiner\grqq{} in ProM, einem interaktiven Tool, das einen schnellen Vergleich mit dem \glqq standard Flexible Heuristic Miner\grqq{} erlaubt.\\
+Zunächst werden die im Paper dargestellten Evaluierungen reproduziert und getestet ob die Ergebnisse nachvollzogen werden können.\\
+Die erste Evaluierung basiert auf einem synthetisch generierten Datensatz und die zweite auf realen Event Logs zu Strafzetteln im italienischen Straßenverkehr und Krankenhausrechnungen eines Enterprise Resource Planing Tools.\\
+Wenn die Ergebnisse und das Vorgehen der Autoren reproduziert werden können, werden im Anschluss die Versuchsparameter variiert (z.B. Klassifizierung durch Entscheidungsbäume C3.4 und Objektivitätsmaß Cohens Kappa).
+Schließlich werden die bis dahin getesteten Mining Methoden auf einen neuen Eventlog Datensatz angewendet und mit den bisherigen Ergebnissen verglichen.
+
+
+\end{abstract}
+
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Prints the main table of contents
+
+\listoffigures % Prints the list of figures
+
+\listoftables % Prints the list of tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+
+
+\textbf{DHM} & \textbf{D}ata-aware \textbf{H}euristic \textbf{M}iner\\
+\textbf{HM} & \textbf{H}euristic \textbf{M}iner\\
+\textbf{IM} & \textbf{I}nductive \textbf{M}iner\\
+
+
+\end{abbreviations}
+
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+\begin{symbols}{lll} % Include a list of Symbols (a three column table)
+
+$C = (\Sigma, s_i , s_o , D, I, O)$ & Causal nets (C-nets tuple)\\
+$\Sigma$ &  finite set of activities \\
+$s_i \in \Sigma$ & unique start activity \\
+$s_o \in \Sigma$ & unique end activity \\
+$D \subseteq \Sigma \times \Sigma$ & dependency relation \\
+$B = \{X \subseteq \mathscr{P} (\Sigma) \; \rvert \; X = \{ \varnothing \} \vee \varnothing \notin X \} $ &   possible bindings \\
+$I \in \Sigma \rightarrow B$ & set of input bindings per activity \\
+$O \in \Sigma \rightarrow B$ & set of output bindings per activity \\
+$A$ & attributes \\
+$U$ & values \\
+$L = (E, \Sigma, \#, L)$ & event log \\
+$E$ & finite set of unique event identifiers \\
+$\Sigma \subseteq U$ & a finite set of activities\\
+$\# : E \rightarrow (A \nrightarrow U)$ & obtains the attribute values recorded for an event\\
+$\mathscr{L} \subseteq E\text{*}$ & the set of traces over E\\
+$\sigma \in L$ & one trace - sequence of events for one process instance
+
+\end{symbols}
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2} 
+\include{Chapters/Chapter3} 
+%\include{Chapters/Notizen}
+%\include{Chapters/Chapter4} 
+%\include{Chapters/Chapter5} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+%\include{Appendices/AppendixA}
+%\include{Appendices/AppendixB}
+%\include{Appendices/AppendixC}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\printbibliography[heading=bibintoc]
+
+%----------------------------------------------------------------------------------------
+
+\end{document}  

@@ -1,0 +1,25 @@
+\begin{filecontents}{DHMSeminar.bib}
+
+@article{Van Der Aalst et. al. (2011),
+	Author = {Van Der Aalst, Wil, Arya Adriansyah, and Boudewijn Van Dongen},
+	Journal = {International conference on concurrency theory- Springer},
+	Title = {Causal nets: a modeling language tailored towards process discover},
+	Url = {https://link.springer.com/10.1007%2F978-3-642-23217-6_3},
+	Year = {2011}}
+	
+	
+@article{Mannhardt et. al. (2017a),
+	Author = {Mannhardt, Felix, et. al.},
+	Journal = {International Conference on Advanced Information Systems Engineering - Springer, Cham, 2017},
+    Title = {Data-driven process discovery-revealing conditional infrequent behavior from event logs},
+	Url = {https://link.springer.com/chapter/10.1007/978-3-319-59536-8_34},
+	Year = {2017}}
+	
+@article{Mannhardt et. al. (2017b),
+	Author = {Mannhardt, Felix, Massimiliano de Leoni, and Hajo A. Reijers},
+	Journal = {BPM 2017 Demos 1920 (2017)},
+    Title = {Heuristic mining revamped: an interactive, data-aware, and conformance-aware miner},
+	Url = {https://pure.tue.nl/ws/files/72722720/dataawareheuristicminer_camera_ready.pdf},
+	Year = {2017}}
+
+\end{filecontents}

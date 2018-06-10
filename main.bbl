@@ -1,0 +1,174 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{Buijs2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9b95fceab7c402669e6844ad7f03237d}{%
+           family={Buijs},
+           familyi={B\bibinitperiod},
+           given={Joos},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b95fceab7c402669e6844ad7f03237d}
+      \strng{fullhash}{9b95fceab7c402669e6844ad7f03237d}
+      \strng{bibnamehash}{9b95fceab7c402669e6844ad7f03237d}
+      \strng{authorbibnamehash}{9b95fceab7c402669e6844ad7f03237d}
+      \strng{authornamehash}{9b95fceab7c402669e6844ad7f03237d}
+      \strng{authorfullhash}{9b95fceab7c402669e6844ad7f03237d}
+      \field{labelalpha}{Bui17}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Future Learn}
+      \field{title}{{Introduction to Process Mining with ProM}}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.futurelearn.com/courses/process-mining?utm{\_}campaign=eindhoven{\_}university{\_}of{\_}technology{\_}process{\_}mining{\_}september{\_}2017{\&}utm{\_}medium=organic{\_}email{\&}utm{\_}source=newsletter{\_}broadcast
+      \endverb
+      \verb{url}
+      \verb https://www.futurelearn.com/courses/process-mining?utm%7B%5C_%7Dcampaign=eindhoven%7B%5C_%7Duniversity%7B%5C_%7Dof%7B%5C_%7Dtechnology%7B%5C_%7Dprocess%7B%5C_%7Dmining%7B%5C_%7Dseptember%7B%5C_%7D2017%7B%5C&%7Dutm%7B%5C_%7Dmedium=organic%7B%5C_%7Demail%7B%5C&%7Dutm%7B%5C_%7Dsource=newsletter%7B%5C_%7Dbroadcast
+      \endverb
+    \endentry
+    \entry{Mannhardt17}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e4ba0dc3a458c14e9864471598fff70f}{%
+           family={{Mannhardt Felix}},
+           familyi={M\bibinitperiod},
+           prefix={et.\bibnamedelimi al.},
+           prefixi={e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4ba0dc3a458c14e9864471598fff70f}
+      \strng{fullhash}{e4ba0dc3a458c14e9864471598fff70f}
+      \strng{bibnamehash}{e4ba0dc3a458c14e9864471598fff70f}
+      \strng{authorbibnamehash}{e4ba0dc3a458c14e9864471598fff70f}
+      \strng{authornamehash}{e4ba0dc3a458c14e9864471598fff70f}
+      \strng{authorfullhash}{e4ba0dc3a458c14e9864471598fff70f}
+      \field{labelalpha}{Man17}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Conference on Advanced Information Systems Engineering - Springer, Cham, 2017}
+      \field{title}{{Data-driven process discovery-revealing conditional infrequent behavior from event logs}}
+      \field{year}{2017}
+      \verb{file}
+      \verb :home/lisa/Darmstadt/00{\_}Seminar/Data{\_}and{\_}Paper/Data-driven process discovery $\backslash$: revealing conditional infrequent behavior from event logs.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/chapter/10.1007/978-3-319-59536-8{\_}34
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/chapter/10.1007/978-3-319-59536-8%7B%5C_%7D34
+      \endverb
+    \endentry
+    \entry{VanDerAlst11}{article}{}
+      \name{author}{12}{}{%
+        {{hash=9e00a0e2ccd90283052860c485425317}{%
+           family={{Van Der Aalst}},
+           familyi={V\bibinitperiod},
+           given={Wil},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9b88bd9a9094083b608fb2e29f905170}{%
+           family={Adriansyah},
+           familyi={A\bibinitperiod},
+           given={Arya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b5adff37a5a1dcb6b37cc277139081e1}{%
+           family={Dongen},
+           familyi={D\bibinitperiod},
+           given={Boudewijn\bibnamedelimb Van\bibnamedelimb F\bibnamedelima Van},
+           giveni={B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=99637bfea1b221a3246f6870db76703b}{%
+           family={Aalst},
+           familyi={A\bibinitperiod},
+           given={W\bibnamedelima M\bibnamedelimb P\bibnamedelimb Van\bibnamedelima Der},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9b88bd9a9094083b608fb2e29f905170}{%
+           family={Adriansyah},
+           familyi={A\bibinitperiod},
+           given={Arya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b5adff37a5a1dcb6b37cc277139081e1}{%
+           family={Dongen},
+           familyi={D\bibinitperiod},
+           given={Boudewijn\bibnamedelimb Van\bibnamedelimb F\bibnamedelima Van},
+           giveni={B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9e00a0e2ccd90283052860c485425317}{%
+           family={{Van Der Aalst}},
+           familyi={V\bibinitperiod},
+           given={Wil},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9b88bd9a9094083b608fb2e29f905170}{%
+           family={Adriansyah},
+           familyi={A\bibinitperiod},
+           given={Arya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b5adff37a5a1dcb6b37cc277139081e1}{%
+           family={Dongen},
+           familyi={D\bibinitperiod},
+           given={Boudewijn\bibnamedelimb Van\bibnamedelimb F\bibnamedelima Van},
+           giveni={B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9e00a0e2ccd90283052860c485425317}{%
+           family={{Van Der Aalst}},
+           familyi={V\bibinitperiod},
+           given={Wil},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9b88bd9a9094083b608fb2e29f905170}{%
+           family={Adriansyah},
+           familyi={A\bibinitperiod},
+           given={Arya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b5adff37a5a1dcb6b37cc277139081e1}{%
+           family={Dongen},
+           familyi={D\bibinitperiod},
+           given={Boudewijn\bibnamedelimb Van\bibnamedelimb F\bibnamedelima Van},
+           giveni={B\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{e30db6545c8280e67e1bcac6af871326}
+      \strng{fullhash}{e6326575cdee312a0148ff55a9b3f942}
+      \strng{bibnamehash}{e30db6545c8280e67e1bcac6af871326}
+      \strng{authorbibnamehash}{e30db6545c8280e67e1bcac6af871326}
+      \strng{authornamehash}{e30db6545c8280e67e1bcac6af871326}
+      \strng{authorfullhash}{e6326575cdee312a0148ff55a9b3f942}
+      \field{labelalpha}{Van+11}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International conference on concurrency theory- Springer}
+      \field{number}{1}
+      \field{title}{{Causal nets: a modeling language tailored towards process discover}}
+      \field{year}{2011}
+      \verb{file}
+      \verb :home/lisa/Darmstadt/00{\_}Seminar/Data{\_}and{\_}Paper/Causal{\_}Nets{\_}van{\_}der{\_}Aalst.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007{\%}2F978-3-642-23217-6{\_}3
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007%7B%5C%%7D2F978-3-642-23217-6%7B%5C_%7D3
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
