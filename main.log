@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.27)  10 JUN 2018 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.27)  6 JUL 2018 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1782,7 +1782,8 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./main.aux
-(./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux))
+(./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux)
+(./Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
@@ -1802,8 +1803,7 @@ LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 120.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Now handling font encoding TS1 ...
@@ -1993,13 +1993,20 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                VanDerAlst11
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 120.
 Package biblatex Info: Reference segment=0 on input line 120.
 \c__siunitx_mathsf_int=\count439
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 120.
-
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 120.
@@ -2015,7 +2022,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \c__siunitx_mathtt_int=\count440
 
 1: section
-<Logo/logo_h_da_fbmn300.png, id=88, 722.7pt x 336.25626pt>
+<Logo/logo_h_da_fbmn300.png, id=140, 722.7pt x 336.25626pt>
 File: Logo/logo_h_da_fbmn300.png Graphic file (type png)
 <use Logo/logo_h_da_fbmn300.png>
 Package pdftex.def Info: Logo/logo_h_da_fbmn300.png  used on input line 134.
@@ -2045,17 +2052,17 @@ ng (PNG copy)>]
  Declaration of Authorship
 --------------------
 
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
@@ -2067,27 +2074,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--178
  Abstract
 --------------------
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 192.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 190.
 
-Overfull \hbox (2.41862pt too wide) in paragraph at lines 195--201
+Overfull \hbox (2.41862pt too wide) in paragraph at lines 193--199
 \T1/ppl/m/n/10.95 driven pro-cess dis-cov-ery: re-veal-ing con-di-tional in-fre
 -quent be-hav-ior from event logs^^P 
  []
 
 
-Overfull \hbox (20.28925pt too wide) in paragraph at lines 195--201
+Overfull \hbox (20.28925pt too wide) in paragraph at lines 193--199
 \T1/ppl/m/n/10.95 Der DHM basiert auf der Idee, dass seltenes - je-doch durch D
 aten gestütztes - Prozessver-
  []
 
 
-Overfull \hbox (8.37585pt too wide) in paragraph at lines 202--208
+Overfull \hbox (8.37585pt too wide) in paragraph at lines 200--206
 \T1/ppl/m/n/10.95 er-punkt liegt an-schlieÿend auf der prak-tis-chen An-wen-dun
 g des Pakets ^^RDataAwareC-
  []
 
 
-Overfull \hbox (5.05756pt too wide) in paragraph at lines 202--208
+Overfull \hbox (5.05756pt too wide) in paragraph at lines 200--206
 \T1/ppl/m/n/10.95 Zunächst wer-den die im Pa-per dargestell-ten Evaluierun-gen 
 re-pro-duziert und getestet
  []
@@ -2099,7 +2106,7 @@ re-pro-duziert und getestet
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 217.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 215.
  (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -2108,13 +2115,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 1: section
 [7] [8
 
-] (./main.lof
-Overfull \hbox (52.73523pt too wide) in paragraph at lines 8--8
- [][] [][][]\T1/ppl/m/n/10.95 Splits and Joins in a C-net of the emer-gency war
-d ex-am-ple pro-cess[[][]Man17[][]][[][]Van+11[][]][][] [][]  
- []
-
-)
+] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -2135,7 +2136,7 @@ d ex-am-ple pro-cess[[][]Man17[][]][[][]Van+11[][]][][] [][]
 [13] [14
 
 ]
-Overfull \hbox (66.3673pt too wide) in alignment at lines 242--261
+Overfull \hbox (66.3673pt too wide) in alignment at lines 240--259
  [] [] [] 
  []
 
@@ -2179,7 +2180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
 ]
 Chapter 2.
-<Chapters/Notizen_Graphics/ProcessMiningSteps.jpg, id=239, 914.41624pt x 335.25
+<Chapters/Notizen_Graphics/ProcessMiningSteps.jpg, id=330, 914.41624pt x 335.25
 25pt>
 File: Chapters/Notizen_Graphics/ProcessMiningSteps.jpg Graphic file (type jpg)
 <use Chapters/Notizen_Graphics/ProcessMiningSteps.jpg>
@@ -2208,14 +2209,14 @@ with at-tributes \T1/ppl/b/n/10.95 act\T1/ppl/m/n/10.95 ivity, \T1/ppl/b/n/10.9
 5 p\T1/ppl/m/n/10.95 riority,
  []
 
-<Chapters/Graphics_Paper/Event_Traces_ex_HB.jpg, id=249, 1019.81pt x 422.57875p
+<Chapters/Graphics_Paper/Event_Traces_ex_HB.jpg, id=340, 1019.81pt x 422.57875p
 t>
 File: Chapters/Graphics_Paper/Event_Traces_ex_HB.jpg Graphic file (type jpg)
 <use Chapters/Graphics_Paper/Event_Traces_ex_HB.jpg>
 Package pdftex.def Info: Chapters/Graphics_Paper/Event_Traces_ex_HB.jpg  used o
 n input line 48.
 (pdftex.def)             Requested size: 398.33858pt x 165.06296pt.
-<Chapters/Notizen_Graphics/ProcessModel_Behaviour.jpg, id=252, 931.48pt x 399.4
+<Chapters/Notizen_Graphics/ProcessModel_Behaviour.jpg, id=343, 931.48pt x 399.4
 925pt>
 File: Chapters/Notizen_Graphics/ProcessModel_Behaviour.jpg Graphic file (type j
 pg)
@@ -2225,18 +2226,26 @@ used on input line 55.
 (pdftex.def)             Requested size: 398.33858pt x 170.83968pt.
 [4 <./Chapters/Graphics_Paper/Event_Traces_ex_HB.jpg> <./Chapters/Notizen_Graph
 ics/ProcessModel_Behaviour.jpg>]
-<Chapters/Graphics_Paper/C-net_ex_HB.jpg, id=267, 1704.3675pt x 390.45876pt>
+<Chapters/Graphics_Paper/C-net_ex_HB.jpg, id=358, 1704.3675pt x 390.45876pt>
 File: Chapters/Graphics_Paper/C-net_ex_HB.jpg Graphic file (type jpg)
 <use Chapters/Graphics_Paper/C-net_ex_HB.jpg>
 Package pdftex.def Info: Chapters/Graphics_Paper/C-net_ex_HB.jpg  used on input
  line 92.
 (pdftex.def)             Requested size: 282.81912pt x 64.7923pt.
-<Chapters/Graphics_Paper/C-nets_Legend.jpg, id=268, 567.11874pt x 353.32pt>
+<Chapters/Graphics_Paper/C-nets_Legend.jpg, id=359, 567.11874pt x 353.32pt>
 File: Chapters/Graphics_Paper/C-nets_Legend.jpg Graphic file (type jpg)
 <use Chapters/Graphics_Paper/C-nets_Legend.jpg>
 Package pdftex.def Info: Chapters/Graphics_Paper/C-nets_Legend.jpg  used on inp
 ut line 93.
 (pdftex.def)             Requested size: 101.00726pt x 62.92633pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 94.
+
+Underfull \hbox (badness 7944) in paragraph at lines 94--94
+ []\T1/ppl/m/sc/10 Figure 2.4: |\T1/ppl/m/n/10 C-net of the emer-gency ward ex-
+am-ple pro- 
+ []
+
 
 Overfull \hbox (3.53519pt too wide) in paragraph at lines 116--117
 \T1/ppl/m/n/10.95 are ap-plied in sev-eral es-tab-lished min-ers. The con-cepts
@@ -2249,7 +2258,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
-<Chapters/Graphics_Paper/AlphaMiner_DependenceMatrix.jpg, id=284, 1340.00626pt 
+<Chapters/Graphics_Paper/AlphaMiner_DependenceMatrix.jpg, id=374, 1340.00626pt 
 x 427.5975pt>
 File: Chapters/Graphics_Paper/AlphaMiner_DependenceMatrix.jpg Graphic file (typ
 e jpg)
@@ -2257,7 +2266,7 @@ e jpg)
 Package pdftex.def Info: Chapters/Graphics_Paper/AlphaMiner_DependenceMatrix.jp
 g  used on input line 131.
 (pdftex.def)             Requested size: 323.22449pt x 103.14093pt.
-<Chapters/Notizen_Graphics/Notation_FootprintMatrix_PetriNet.jpg, id=288, 827.0
+<Chapters/Notizen_Graphics/Notation_FootprintMatrix_PetriNet.jpg, id=378, 827.0
 9pt x 407.5225pt>
 File: Chapters/Notizen_Graphics/Notation_FootprintMatrix_PetriNet.jpg Graphic f
 ile (type jpg)
@@ -2272,7 +2281,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
 [6 <./Chapters/Graphics_Paper/AlphaMiner_DependenceMatrix.jpg> <./Chapters/Noti
 zen_Graphics/Notation_FootprintMatrix_PetriNet.jpg>]
-<Chapters/Graphics_Paper/HeuristicMiner_DependencyMatrix.jpg, id=295, 1200.485p
+<Chapters/Graphics_Paper/HeuristicMiner_DependencyMatrix.jpg, id=385, 1200.485p
 t x 421.575pt>
 File: Chapters/Graphics_Paper/HeuristicMiner_DependencyMatrix.jpg Graphic file 
 (type jpg)
@@ -2280,21 +2289,21 @@ File: Chapters/Graphics_Paper/HeuristicMiner_DependencyMatrix.jpg Graphic file
 Package pdftex.def Info: Chapters/Graphics_Paper/HeuristicMiner_DependencyMatri
 x.jpg  used on input line 150.
 (pdftex.def)             Requested size: 282.81912pt x 99.31458pt.
-<Chapters/Notizen_Graphics/InductMin_repeat1.jpg, id=300, 236.885pt x 325.215pt
+<Chapters/Notizen_Graphics/InductMin_repeat1.jpg, id=390, 236.885pt x 325.215pt
 >
 File: Chapters/Notizen_Graphics/InductMin_repeat1.jpg Graphic file (type jpg)
 <use Chapters/Notizen_Graphics/InductMin_repeat1.jpg>
 Package pdftex.def Info: Chapters/Notizen_Graphics/InductMin_repeat1.jpg  used 
 on input line 167.
 (pdftex.def)             Requested size: 137.36841pt x 188.59505pt.
-<Chapters/Notizen_Graphics/InductMin_repeat2.jpg, id=301, 207.77625pt x 325.215
+<Chapters/Notizen_Graphics/InductMin_repeat2.jpg, id=391, 207.77625pt x 325.215
 pt>
 File: Chapters/Notizen_Graphics/InductMin_repeat2.jpg Graphic file (type jpg)
 <use Chapters/Notizen_Graphics/InductMin_repeat2.jpg>
 Package pdftex.def Info: Chapters/Notizen_Graphics/InductMin_repeat2.jpg  used 
 on input line 168.
 (pdftex.def)             Requested size: 121.20995pt x 189.72151pt.
-<Chapters/Notizen_Graphics/InductMin_repeat3.jpg, id=302, 228.855pt x 322.20375
+<Chapters/Notizen_Graphics/InductMin_repeat3.jpg, id=392, 228.855pt x 322.20375
 pt>
 File: Chapters/Notizen_Graphics/InductMin_repeat3.jpg Graphic file (type jpg)
 <use Chapters/Notizen_Graphics/InductMin_repeat3.jpg>
@@ -2302,13 +2311,13 @@ Package pdftex.def Info: Chapters/Notizen_Graphics/InductMin_repeat3.jpg  used
 on input line 169.
 (pdftex.def)             Requested size: 133.33032pt x 187.71901pt.
  [7 <./Chapters/Graphics_Paper/HeuristicMiner_DependencyMatrix.jpg>]
-<Chapters/Graphics_Paper/IM_ex_HB.jpg, id=310, 674.52pt x 342.27875pt>
+<Chapters/Graphics_Paper/IM_ex_HB.jpg, id=399, 674.52pt x 342.27875pt>
 File: Chapters/Graphics_Paper/IM_ex_HB.jpg Graphic file (type jpg)
 <use Chapters/Graphics_Paper/IM_ex_HB.jpg>
 Package pdftex.def Info: Chapters/Graphics_Paper/IM_ex_HB.jpg  used on input li
 ne 179.
 (pdftex.def)             Requested size: 197.97646pt x 100.45952pt.
-<Chapters/Graphics_Paper/HM_ex_HB.jpg, id=311, 674.52pt x 257.96375pt>
+<Chapters/Graphics_Paper/HM_ex_HB.jpg, id=400, 674.52pt x 257.96375pt>
 File: Chapters/Graphics_Paper/HM_ex_HB.jpg Graphic file (type jpg)
 <use Chapters/Graphics_Paper/HM_ex_HB.jpg>
 Package pdftex.def Info: Chapters/Graphics_Paper/HM_ex_HB.jpg  used on input li
@@ -2355,46 +2364,164 @@ Overfull \hbox (11.91348pt too wide) in paragraph at lines 292--294
 ]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+1: section
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 74--74
 []\T1/ppl/m/n/10.95 HM - no fre-quency fil-ter
  []
 
-)
-1: section
-[13] [14]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 298.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+File: Chapters/Graphics_Paper/C-net_ex_HB.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/C-net_ex_HB.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/C-net_ex_HB.jpg  used on input
+ line 87.
+(pdftex.def)             Requested size: 404.02908pt x 92.55617pt.
+<Chapters/Graphics_Paper/Syn0NoiseReprod.jpg, id=465, 1248.665pt x 301.125pt>
+File: Chapters/Graphics_Paper/Syn0NoiseReprod.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/Syn0NoiseReprod.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/Syn0NoiseReprod.jpg  used on i
+nput line 94.
+(pdftex.def)             Requested size: 363.6237pt x 87.687pt.
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+<Chapters/Graphics_Paper/HBresults.jpg, id=474, 844.15375pt x 258.9675pt>
+File: Chapters/Graphics_Paper/HBresults.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/HBresults.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/HBresults.jpg  used on input l
+ine 162.
+(pdftex.def)             Requested size: 404.02908pt x 123.94733pt.
+<Chapters/Graphics_Paper/HBreprod.jpg, id=477, 1241.63875pt x 376.40625pt>
+File: Chapters/Graphics_Paper/HBreprod.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/HBreprod.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/HBreprod.jpg  used on input li
+ne 167.
+(pdftex.def)             Requested size: 363.6237pt x 110.22903pt.
+[15 <./Chapters/Graphics_Paper/Syn0NoiseReprod.jpg> <./Chapters/Graphics_Paper/
+HBresults.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+<Chapters/Graphics_Paper/RFresults.jpg, id=485, 846.16125pt x 288.07625pt>
+File: Chapters/Graphics_Paper/RFresults.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/RFresults.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/RFresults.jpg  used on input l
+ine 223.
+(pdftex.def)             Requested size: 404.02908pt x 137.54973pt.
+<Chapters/Graphics_Paper/RFreprod.jpg, id=488, 1246.6575pt x 550.055pt>
+File: Chapters/Graphics_Paper/RFreprod.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/RFreprod.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/RFreprod.jpg  used on input li
+ne 230.
+(pdftex.def)             Requested size: 363.6237pt x 160.4351pt.
+[16 <./Chapters/Graphics_Paper/HBreprod.jpg> <./Chapters/Graphics_Paper/RFresul
+ts.jpg>]) [17 <./Chapters/Graphics_Paper/RFreprod.jpg>]
+\openout2 = `Appendix.aux'.
+
+ (./Appendix.tex
+<Chapters/Graphics_Paper/Syn20NoiseReprod.jpg, id=499, 1246.6575pt x 306.14375p
+t>
+File: Chapters/Graphics_Paper/Syn20NoiseReprod.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/Syn20NoiseReprod.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/Syn20NoiseReprod.jpg  used on 
+input line 6.
+(pdftex.def)             Requested size: 363.6237pt x 89.29326pt.
+<Chapters/Graphics_Paper/Syn30NoiseReprod.jpg, id=500, 1247.66125pt x 431.6125p
+t>
+File: Chapters/Graphics_Paper/Syn30NoiseReprod.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/Syn30NoiseReprod.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/Syn30NoiseReprod.jpg  used on 
+input line 13.
+(pdftex.def)             Requested size: 363.6237pt x 125.79007pt.
+<Chapters/Graphics_Paper/A1HB_table.jpg, id=501, 708.6475pt x 426.59375pt>
+File: Chapters/Graphics_Paper/A1HB_table.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/A1HB_table.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/A1HB_table.jpg  used on input 
+line 22.
+(pdftex.def)             Requested size: 363.6237pt x 218.90083pt.
+<Chapters/Graphics_Paper/A1_HBtableActivities.jpg, id=502, 710.655pt x 386.4437
+6pt>
+File: Chapters/Graphics_Paper/A1_HBtableActivities.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/A1_HBtableActivities.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/A1_HBtableActivities.jpg  used
+ on input line 27.
+(pdftex.def)             Requested size: 363.6237pt x 197.73824pt.
+
+[18
+
+
+ <./Chapters/Graphics_Paper/Syn20NoiseReprod.jpg> <./Chapters/Graphics_Paper/Sy
+n30NoiseReprod.jpg> <./Chapters/Graphics_Paper/A1HB_table.jpg>]
+<Chapters/Graphics_Paper/A1_RFtable.jpg, id=508, 850.17625pt x 590.205pt>
+File: Chapters/Graphics_Paper/A1_RFtable.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/A1_RFtable.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/A1_RFtable.jpg  used on input 
+line 34.
+(pdftex.def)             Requested size: 363.6237pt x 252.43233pt.
+<Chapters/Graphics_Paper/A1_RFtableActivities.jpg, id=509, 847.165pt x 448.6762
+5pt>
+File: Chapters/Graphics_Paper/A1_RFtableActivities.jpg Graphic file (type jpg)
+<use Chapters/Graphics_Paper/A1_RFtableActivities.jpg>
+Package pdftex.def Info: Chapters/Graphics_Paper/A1_RFtableActivities.jpg  used
+ on input line 39.
+(pdftex.def)             Requested size: 363.6237pt x 192.57787pt.
+) [19 <./Chapters/Graphics_Paper/A1_HBtableActivities.jpg> <./Chapters/Graphics
+_Paper/A1_RFtable.jpg>] [20 <./Chapters/Graphics_Paper/A1_RFtableActivities.jpg
+>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 296.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Overfull \hbox (7.6955pt too wide) in paragraph at lines 296--296
+[]\T1/ppl/m/n/10.95 Wil Van Der Aalst, Arya Adri-an-syah, and Boudewijn Van Don
+-gen. ^^P  Causal
+ []
 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
 1: section
-[15
+[21
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
-(./Chapters/Chapter3.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
+(./Chapters/Chapter3.aux) (./Appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 884372353835FC6FB8F5B13D93F146DB;3759.
+(rerunfilecheck)             Checksum: BAAD4B1C5A1C172C937EF38F3165E73A;6656.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35865 strings out of 494784
- 716110 string characters out of 6176240
- 1111381 words of memory out of 5000000
- 38702 multiletter control sequences out of 15000+600000
- 585790 words of font info for 113 fonts, out of 8000000 for 9000
+ 36006 strings out of 494784
+ 719652 string characters out of 6176240
+ 1115051 words of memory out of 5000000
+ 38780 multiletter control sequences out of 15000+600000
+ 587239 words of font info for 115 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  59i,20n,77p,10454b,2765s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -2405,18 +2532,19 @@ type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
-uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (31 pages, 1324081 bytes).
+y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/u
+plr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (37 pages, 2176001 bytes).
 PDF statistics:
- 469 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
- 105 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 627 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 398 words of extra memory for PDF output out of 10000 (max. 10000000)
 

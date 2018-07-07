@@ -42,7 +42,7 @@ Thus an event log $L = (E, \Sigma, \#, L)$ consists of:
 one process instance - each event occurs only in a single trace}
 \end{itemize}
 
-\noindent In the following figure this can be seen for three traces with attributes \textbf{act}ivity, \textbf{p}riority, \textbf{n}urse and \textbf{t}ype. The Hospital Billing Example will be used through this paper for a better explanation of Data Mining as well as an evaluation data set in chapter 3. \protect\cite{Mannhardt17}
+\noindent In the following figure this can be seen for three traces with attributes \textbf{act}ivity, \textbf{p}riority, \textbf{n}urse and \textbf{t}ype. The emergency ward example will be used throughout this paper and in Chapter three it will be explained in more detail, when reproducing the results for the DHM. \protect\cite{Mannhardt17}
 
 \begin{figure}[H]
 \includegraphics[width=14cm]{Chapters/Graphics_Paper/Event_Traces_ex_HB.jpg}
@@ -86,12 +86,12 @@ Each transition in the process model can be enabled\\
 
 \subsection{Causal Nets}
 Conventional model notations like Petri nets and BPMN are often not able to represent observed behavior properly and discovered process models tend to have dead- or livelocks. For this reason C-nets are preferred by the authors as representation for their DHM.\\
-In a Causal-net (C-net) nodes represent activities and arcs represent causal dependencies. Each activity has a set of possible input bindings and a set of possible output bindings. For example in the following Figure the Activity "Register" has one input binding from "Triage" but two sets of output bindings \{"Check", "Visit"\}, \{"Check", "X-Ray"\}. This means that "Register" is either followed by "Check" and "Visit" or "Check" and "X-Ray".\protect\cite{Mannhardt17}\protect\cite{VanDerAlst11}
+In a Causal-net (C-net) nodes represent activities and arcs represent causal dependencies. Each activity has a set of possible input bindings and a set of possible output bindings. For example in the following Figure the Activity "Register" has one input binding from "Triage" but two sets of output bindings \{"Check", "Visit"\}, \{"Check", "X-Ray"\}. This means that "Register" is either followed by "Check" and "Visit" or "Check" and "X-Ray".\protect\cite{Mannhardt17}\protect\cite{Aalst}
 
 \begin{figure} [H]
     \subfigure{\includegraphics[width=0.7\textwidth]{Chapters/Graphics_Paper/C-net_ex_HB.jpg}}
     \subfigure{\includegraphics[width=0.25\textwidth]{Chapters/Graphics_Paper/C-nets_Legend.jpg}} 
-\caption{Splits and Joins in a C-net of the emergency ward example process\protect\cite{Mannhardt17}\protect\cite{VanDerAlst11}} 
+\caption{C-net of the emergency ward example process\protect\cite{Mannhardt17}\protect\cite{VanDerAlst11}} 
 \end{figure}
 \vspace{3pt}
 

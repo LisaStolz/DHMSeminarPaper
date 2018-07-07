@@ -1,17 +1,17 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'main.blg'
-[24] biber:313> INFO - === So Jun 10, 2018, 10:24:36
-[44] Biber.pm:371> INFO - Reading 'main.bcf'
-[102] Biber.pm:857> INFO - Found 3 citekeys in bib section 0
-[115] Biber.pm:3981> INFO - Processing section 0
-[125] Biber.pm:4154> INFO - Looking for bibtex format file 'library.bib' for section 0
-[126] bibtex.pm:1468> INFO - LaTeX decoding ...
-[136] bibtex.pm:1294> INFO - Found BibTeX data source 'library.bib'
-[170] Utils.pm:169> WARN - BibTeX subsystem: /tmp/QYvSgaVta6/library.bib_5722.utf8, line 6, warning: 170 characters of junk seen at toplevel
-[189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[189] Biber.pm:3809> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
-[190] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
-[200] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[202] bbl.pm:720> INFO - Output to main.bbl
-[202] Biber.pm:110> INFO - WARNINGS: 1
+[22] biber:313> INFO - === Do Jul  5, 2018, 22:33:15
+[39] Biber.pm:371> INFO - Reading 'main.bcf'
+[96] Biber.pm:857> INFO - Found 6 citekeys in bib section 0
+[107] Biber.pm:3981> INFO - Processing section 0
+[116] Biber.pm:4154> INFO - Looking for bibtex format file 'library.bib' for section 0
+[117] bibtex.pm:1468> INFO - LaTeX decoding ...
+[129] bibtex.pm:1294> INFO - Found BibTeX data source 'library.bib'
+[150] Utils.pm:169> WARN - I didn't find a database entry for 'VanDerAlst11' (section 0)
+[162] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[162] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[162] Biber.pm:3809> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[162] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[171] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[173] bbl.pm:720> INFO - Output to main.bbl
+[173] Biber.pm:110> INFO - WARNINGS: 1
